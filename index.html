@@ -3,27 +3,49 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Enhanced Landing Page</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body>
+    <html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Ascot Vale Accounting Services | Professional Financial Solutions</title>
     <meta name="description" content="Expert accounting services in Ascot Vale offering retirement planning, expense tracking, and dedicated financial management.">
     <script src="https://cdn.tailwindcss.com"></script>
     <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <style>
+        html {
+            scroll-behavior: smooth;
+        }
+    </style>
 </head>
 <body class="font-sans antialiased text-gray-800 bg-white">
     <!-- Header -->
     <header class="fixed w-full bg-white/95 backdrop-blur-sm z-50 border-b border-gray-100">
         <nav class="container mx-auto px-4 sm:px-6 lg:px-8 py-4">
             <div class="flex items-center justify-between">
-                <a href="/" class="text-2xl font-bold text-blue-600">AV Accounting</a>
+                <a href="https://test-acc-12349.github.io/ascot-vale-accounting-services-2025-04-23-1745391767367" class="text-2xl font-bold text-blue-600 hover:text-blue-700 transition-colors duration-300">AV Accounting</a>
                 <div class="hidden md:flex space-x-8">
                     <a href="#services" class="text-gray-600 hover:text-blue-600 transition-colors duration-300">Services</a>
                     <a href="#benefits" class="text-gray-600 hover:text-blue-600 transition-colors duration-300">Benefits</a>
                     <a href="#faq" class="text-gray-600 hover:text-blue-600 transition-colors duration-300">FAQ</a>
                     <a href="#contact" class="text-gray-600 hover:text-blue-600 transition-colors duration-300">Contact</a>
                 </div>
-                <a href="https://theaccountants.com" class="hidden md:inline-block px-6 py-2 bg-blue-600 text-white rounded-full hover:bg-blue-700 transition-colors duration-300">Get Started</a>
-                <button class="md:hidden text-gray-600 hover:text-blue-600">
-                    <i class='bx bx-menu text-2xl'></i>
+                <a href="https://theaccountants.com" class="hidden md:inline-block px-6 py-2 bg-blue-600 text-white rounded-full hover:bg-blue-700 transform hover:scale-105 transition-all duration-300 shadow-md hover:shadow-lg">Get Started</a>
+                <button class="mobile-menu-button md:hidden text-gray-600 hover:text-blue-600" aria-label="Toggle menu">
+                    <i class="fas fa-bars text-2xl"></i>
                 </button>
+            </div>
+            <!-- Mobile Menu -->
+            <div class="mobile-menu hidden md:hidden mt-4 bg-white rounded-lg shadow-lg absolute left-0 right-0 p-4">
+                <a href="#services" class="block py-2 px-4 text-gray-600 hover:bg-blue-50 hover:text-blue-600 rounded transition-colors duration-300">Services</a>
+                <a href="#benefits" class="block py-2 px-4 text-gray-600 hover:bg-blue-50 hover:text-blue-600 rounded transition-colors duration-300">Benefits</a>
+                <a href="#faq" class="block py-2 px-4 text-gray-600 hover:bg-blue-50 hover:text-blue-600 rounded transition-colors duration-300">FAQ</a>
+                <a href="#contact" class="block py-2 px-4 text-gray-600 hover:bg-blue-50 hover:text-blue-600 rounded transition-colors duration-300">Contact</a>
+                <a href="https://theaccountants.com" class="block mt-2 px-4 py-2 bg-blue-600 text-white rounded-full hover:bg-blue-700 text-center transition-colors duration-300">Get Started</a>
             </div>
         </nav>
     </header>
@@ -32,9 +54,22 @@
     <section class="pt-32 pb-24 bg-gradient-to-br from-blue-50 to-white">
         <div class="container mx-auto px-4 sm:px-6 lg:px-8">
             <div class="max-w-4xl mx-auto text-center">
-                <h1 class="text-4xl md:text-5xl lg:text-6xl font-bold text-gray-900 mb-6">Ascot Vale accounting services</h1>
-                <p class="text-xl md:text-2xl text-gray-600 mb-12">Accounting excellence with a personal touch</p>
-                <a href="https://theaccountants.com" class="inline-block px-8 py-4 bg-blue-600 text-white rounded-full text-lg font-semibold hover:bg-blue-700 transform hover:scale-105 transition-all duration-300">Start Your Financial Journey</a>
+                <h1 class="text-4xl md:text-5xl lg:text-6xl font-bold text-gray-900 mb-6">Transform Your Financial Future with Ascot Vale Accounting</h1>
+                <p class="text-xl md:text-2xl text-gray-600 mb-12">Expert financial guidance tailored to your unique needs, delivered with personalized attention and proven expertise</p>
+                <a href="https://theaccountants.com" class="inline-block px-8 py-4 bg-blue-600 text-white rounded-full text-lg font-semibold hover:bg-blue-700 transform hover:scale-105 transition-all duration-300 shadow-lg hover:shadow-xl">Start Your Financial Journey Today</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Us Section -->
+    <section id="about" class="py-24 bg-gray-50">
+        <div class="container mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="max-w-4xl mx-auto">
+                <h2 class="text-3xl md:text-4xl font-bold text-center mb-12">Our Story</h2>
+                <div class="space-y-8">
+                    <p class="text-lg text-gray-700 leading-relaxed">Founded in 2010, Ascot Vale Accounting emerged from a vision to provide personalized financial services that go beyond traditional accounting. Our founders, with over 30 years of combined experience in financial management and tax consulting, recognized the need for a more client-focused approach in the accounting industry.</p>
+                    <p class="text-lg text-gray-700 leading-relaxed">Today, we remain committed to our core values of integrity, excellence, and innovation. Our mission is to empower individuals and businesses with the financial knowledge and tools they need to thrive in today's dynamic economic landscape. We believe in building lasting relationships with our clients, serving as trusted advisors through every stage of their financial journey.</p>
+                </div>
             </div>
         </div>
     </section>
@@ -44,20 +79,20 @@
         <div class="container mx-auto px-4 sm:px-6 lg:px-8">
             <h2 class="text-3xl md:text-4xl font-bold text-center mb-16">Comprehensive Financial Services</h2>
             <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
-                <div class="p-8 bg-white rounded-2xl shadow-lg hover:shadow-xl transition-shadow duration-300">
+                <div class="p-8 bg-white rounded-2xl shadow-lg hover:shadow-xl transition-all duration-300 transform hover:scale-102">
                     <i class='bx bx-chart text-4xl text-blue-600 mb-4'></i>
-                    <h3 class="text-xl font-semibold mb-4">Retirement Planning</h3>
-                    <p class="text-gray-600">Secure your future with our expert retirement planning services tailored to your goals.</p>
+                    <h3 class="text-xl font-semibold mb-4">Strategic Retirement Planning</h3>
+                    <p class="text-gray-600">Comprehensive retirement strategies tailored to your goals, including superannuation optimization, investment planning, and risk management. Our experts help you build a secure financial future with confidence.</p>
                 </div>
-                <div class="p-8 bg-white rounded-2xl shadow-lg hover:shadow-xl transition-shadow duration-300">
+                <div class="p-8 bg-white rounded-2xl shadow-lg hover:shadow-xl transition-all duration-300 transform hover:scale-102">
                     <i class='bx bx-user text-4xl text-blue-600 mb-4'></i>
-                    <h3 class="text-xl font-semibold mb-4">Dedicated Manager</h3>
-                    <p class="text-gray-600">Personal attention from an experienced financial manager committed to your success.</p>
+                    <h3 class="text-xl font-semibold mb-4">Personal Financial Manager</h3>
+                    <p class="text-gray-600">Experience premium service with your dedicated financial manager who understands your unique needs. Enjoy direct access to expert advice, regular portfolio reviews, and proactive financial planning.</p>
                 </div>
-                <div class="p-8 bg-white rounded-2xl shadow-lg hover:shadow-xl transition-shadow duration-300">
+                <div class="p-8 bg-white rounded-2xl shadow-lg hover:shadow-xl transition-all duration-300 transform hover:scale-102">
                     <i class='bx bx-receipt text-4xl text-blue-600 mb-4'></i>
-                    <h3 class="text-xl font-semibold mb-4">Expense Tracking</h3>
-                    <p class="text-gray-600">Advanced expense tracking solutions to keep your finances organized and optimized.</p>
+                    <h3 class="text-xl font-semibold mb-4">Advanced Expense Tracking</h3>
+                    <p class="text-gray-600">Utilize cutting-edge technology to monitor and optimize your expenses. Our real-time tracking system helps identify savings opportunities and provides detailed insights for better financial decision-making.</p>
                 </div>
             </div>
         </div>
@@ -68,58 +103,126 @@
         <div class="container mx-auto px-4 sm:px-6 lg:px-8">
             <h2 class="text-3xl md:text-4xl font-bold text-center mb-16">Why Choose Us</h2>
             <div class="grid grid-cols-1 md:grid-cols-3 gap-12">
-                <div class="text-center">
-                    <div class="w-16 h-16 bg-blue-100 rounded-full flex items-center justify-center mx-auto mb-6">
+                <div class="text-center transform hover:scale-105 transition-transform duration-300">
+                    <div class="w-16 h-16 bg-blue-100 rounded-full flex items-center justify-center mx-auto mb-6 hover:bg-blue-200 transition-colors duration-300">
                         <i class='bx bx-dollar-circle text-3xl text-blue-600'></i>
                     </div>
-                    <h3 class="text-xl font-semibold mb-4">Cash Flow Management</h3>
-                    <p class="text-gray-600">Optimize your cash flow with our proven management strategies.</p>
+                    <h3 class="text-xl font-semibold mb-4">Strategic Cash Flow Management</h3>
+                    <p class="text-gray-600">Optimize your financial health with our advanced cash flow management solutions, ensuring sustainable growth and stability.</p>
                 </div>
-                <div class="text-center">
-                    <div class="w-16 h-16 bg-blue-100 rounded-full flex items-center justify-center mx-auto mb-6">
+                <div class="text-center transform hover:scale-105 transition-transform duration-300">
+                    <div class="w-16 h-16 bg-blue-100 rounded-full flex items-center justify-center mx-auto mb-6 hover:bg-blue-200 transition-colors duration-300">
                         <i class='bx bx-trending-up text-3xl text-blue-600'></i>
                     </div>
-                    <h3 class="text-xl font-semibold mb-4">Profit Increase</h3>
-                    <p class="text-gray-600">Strategic solutions to boost your business profitability.</p>
+                    <h3 class="text-xl font-semibold mb-4">Proven Profit Growth</h3>
+                    <p class="text-gray-600">Achieve substantial profit increases through our data-driven strategies and market-tested optimization techniques.</p>
                 </div>
-                <div class="text-center">
-                    <div class="w-16 h-16 bg-blue-100 rounded-full flex items-center justify-center mx-auto mb-6">
+                <div class="text-center transform hover:scale-105 transition-transform duration-300">
+                    <div class="w-16 h-16 bg-blue-100 rounded-full flex items-center justify-center mx-auto mb-6 hover:bg-blue-200 transition-colors duration-300">
                         <i class='bx bx-minus-circle text-3xl text-blue-600'></i>
                     </div>
-                    <h3 class="text-xl font-semibold mb-4">Cost Reduction</h3>
-                    <p class="text-gray-600">Identify and implement effective cost-saving measures.</p>
+                    <h3 class="text-xl font-semibold mb-4">Smart Cost Optimization</h3>
+                    <p class="text-gray-600">Reduce operational costs without compromising quality through our intelligent expense analysis and management systems.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section id="testimonials" class="py-24 bg-white">
+        <div class="container mx-auto px-4 sm:px-6 lg:px-8">
+            <h2 class="text-3xl md:text-4xl font-bold text-center mb-16">Client Success Stories</h2>
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+                <div class="bg-gray-50 p-8 rounded-2xl shadow-md hover:shadow-lg transition-shadow duration-300">
+                    <div class="flex text-yellow-400 mb-4">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <p class="text-gray-700 mb-4">"AV Accounting transformed our business finances. Their strategic planning helped us increase profits by 40% in just one year. The dedicated manager approach makes a huge difference."</p>
+                    <div class="font-semibold">Sarah Thompson</div>
+                    <div class="text-sm text-gray-600">CEO, Melbourne Tech Solutions</div>
+                </div>
+                <div class="bg-gray-50 p-8 rounded-2xl shadow-md hover:shadow-lg transition-shadow duration-300">
+                    <div class="flex text-yellow-400 mb-4">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <p class="text-gray-700 mb-4">"Their retirement planning services are exceptional. They helped me create a comprehensive strategy that's already showing great returns. Highly professional and knowledgeable team."</p>
+                    <div class="font-semibold">Michael Chen</div>
+                    <div class="text-sm text-gray-600">Senior Engineer, Global Systems</div>
+                </div>
+                <div class="bg-gray-50 p-8 rounded-2xl shadow-md hover:shadow-lg transition-shadow duration-300">
+                    <div class="flex text-yellow-400 mb-4">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <p class="text-gray-700 mb-4">"The expense tracking system has revolutionized how we manage our business finances. We've saved thousands in unnecessary expenses."</p>
+                    <div class="font-semibold">Emma Wilson</div>
+                    <div class="text-sm text-gray-600">Owner, Retail Chain</div>
+                </div>
+                <div class="bg-gray-50 p-8 rounded-2xl shadow-md hover:shadow-lg transition-shadow duration-300">
+                    <div class="flex text-yellow-400 mb-4">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <p class="text-gray-700 mb-4">"Outstanding personal service. They're always available to answer questions and provide guidance. Their strategic advice has been invaluable for our growth."</p>
+                    <div class="font-semibold">David Patterson</div>
+                    <div class="text-sm text-gray-600">Director, Construction Services</div>
                 </div>
             </div>
         </div>
     </section>
 
     <!-- FAQ Section -->
-    <section id="faq" class="py-24 bg-white">
+    <section id="faq" class="py-24 bg-gray-50">
         <div class="container mx-auto px-4 sm:px-6 lg:px-8">
             <h2 class="text-3xl md:text-4xl font-bold text-center mb-16">Frequently Asked Questions</h2>
             <div class="max-w-3xl mx-auto space-y-6">
-                <div class="border border-gray-200 rounded-lg p-6 hover:shadow-md transition-shadow duration-300">
-                    <h3 class="text-lg font-semibold mb-3">What services do you offer?</h3>
-                    <p class="text-gray-600">We provide comprehensive accounting services including retirement planning, dedicated financial management, and expense tracking solutions.</p>
+                <div class="border border-gray-200 rounded-lg p-6 hover:shadow-md transition-all duration-300 bg-white">
+                    <h3 class="text-lg font-semibold mb-3">What makes your accounting services unique?</h3>
+                    <p class="text-gray-600">Our approach combines cutting-edge technology with personalized service. Each client gets a dedicated financial manager, custom-tailored solutions, and access to our advanced digital platform for real-time financial tracking.</p>
                 </div>
-                <div class="border border-gray-200 rounded-lg p-6 hover:shadow-md transition-shadow duration-300">
-                    <h3 class="text-lg font-semibold mb-3">How can I get started?</h3>
-                    <p class="text-gray-600">Simply contact us through email or visit our website to schedule an initial consultation with our team.</p>
+                <div class="border border-gray-200 rounded-lg p-6 hover:shadow-md transition-all duration-300 bg-white">
+                    <h3 class="text-lg font-semibold mb-3">How do you ensure data security?</h3>
+                    <p class="text-gray-600">We employ bank-level encryption, secure cloud storage, and regular security audits to protect your financial data. Our systems comply with all relevant privacy regulations and industry standards.</p>
                 </div>
-                <div class="border border-gray-200 rounded-lg p-6 hover:shadow-md transition-shadow duration-300">
-                    <h3 class="text-lg font-semibold mb-3">What makes your service unique?</h3>
-                    <p class="text-gray-600">We combine professional expertise with personalized attention, ensuring each client receives tailored financial solutions.</p>
+                <div class="border border-gray-200 rounded-lg p-6 hover:shadow-md transition-all duration-300 bg-white">
+                    <h3 class="text-lg font-semibold mb-3">What is your fee structure?</h3>
+                    <p class="text-gray-600">We offer transparent, value-based pricing with flexible packages tailored to your needs. Initial consultations are complimentary, and we provide detailed quotes before beginning any work.</p>
+                </div>
+                <div class="border border-gray-200 rounded-lg p-6 hover:shadow-md transition-all duration-300 bg-white">
+                    <h3 class="text-lg font-semibold mb-3">How quickly can you implement new financial strategies?</h3>
+                    <p class="text-gray-600">Most basic implementations can be completed within 1-2 weeks. More complex financial strategies typically take 3-4 weeks, including thorough analysis and customization to your specific situation.</p>
+                </div>
+                <div class="border border-gray-200 rounded-lg p-6 hover:shadow-md transition-all duration-300 bg-white">
+                    <h3 class="text-lg font-semibold mb-3">What ongoing support do you provide?</h3>
+                    <p class="text-gray-600">Our service includes regular review meetings, continuous monitoring of your financial performance, unlimited email support, and quarterly strategy sessions to ensure your financial goals stay on track.</p>
                 </div>
             </div>
         </div>
     </section>
 
     <!-- CTA Section -->
-    <section class="py-24 bg-blue-600 text-white">
-        <div class="container mx-auto px-4 sm:px-6 lg:px-8 text-center">
+    <section class="py-24 bg-blue-600 text-white relative overflow-hidden">
+        <div class="absolute inset-0 z-0">
+            <img src="https://images.unsplash.com/photo-1554224155-8d04cb21cd6c?ixlib=rb-1.2.1&auto=format&fit=crop&w=1950&q=80" alt="Background" class="object-cover w-full h-full opacity-10">
+        </div>
+        <div class="container mx-auto px-4 sm:px-6 lg:px-8 text-center relative z-10">
             <h2 class="text-3xl md:text-4xl font-bold mb-8">Ready to Transform Your Finances?</h2>
-            <p class="text-xl mb-12 opacity-90">Let's work together to achieve your financial goals</p>
-            <a href="https://theaccountants.com" class="inline-block px-8 py-4 bg-white text-blue-600 rounded-full text-lg font-semibold hover:bg-gray-100 transform hover:scale-105 transition-all duration-300">Get Started Today</a>
+            <p class="text-xl mb-12 opacity-90">Join hundreds of satisfied clients who have achieved their financial goals with our expert guidance</p>
+            <a href="https://theaccountants.com" class="inline-block px-8 py-4 bg-white text-blue-600 rounded-full text-lg font-semibold hover:bg-gray-100 transform hover:scale-105 transition-all duration-300 shadow-lg hover:shadow-xl">Start Your Journey Today</a>
         </div>
     </section>
 
@@ -135,24 +238,24 @@
                 <div>
                     <h4 class="text-lg font-semibold text-white mb-4">Services</h4>
                     <ul class="space-y-2">
-                        <li><a href="#" class="hover:text-white transition-colors duration-300">Retirement Planning</a></li>
-                        <li><a href="#" class="hover:text-white transition-colors duration-300">Financial Management</a></li>
-                        <li><a href="#" class="hover:text-white transition-colors duration-300">Expense Tracking</a></li>
+                        <li><a href="#services" class="hover:text-white transition-colors duration-300">Retirement Planning</a></li>
+                        <li><a href="#services" class="hover:text-white transition-colors duration-300">Financial Management</a></li>
+                        <li><a href="#services" class="hover:text-white transition-colors duration-300">Expense Tracking</a></li>
                     </ul>
                 </div>
                 <div>
                     <h4 class="text-lg font-semibold text-white mb-4">Resources</h4>
                     <ul class="space-y-2">
-                        <li><a href="#" class="hover:text-white transition-colors duration-300">Blog</a></li>
-                        <li><a href="#" class="hover:text-white transition-colors duration-300">FAQ</a></li>
-                        <li><a href="#" class="hover:text-white transition-colors duration-300">Support</a></li>
+                        <li><a href="https://test-acc-12349.github.io/ascot-vale-accounting-services-2025-04-23-1745391767367/blog.html" class="hover:text-white transition-colors duration-300">Blog</a></li>
+                        <li><a href="#faq" class="hover:text-white transition-colors duration-300">FAQ</a></li>
+                        <li><a href="#contact" class="hover:text-white transition-colors duration-300">Support</a></li>
                     </ul>
                 </div>
                 <div>
                     <h4 class="text-lg font-semibold text-white mb-4">Legal</h4>
                     <ul class="space-y-2">
-                        <li><a href="#" class="hover:text-white transition-colors duration-300">Privacy Policy</a></li>
-                        <li><a href="#" class="hover:text-white transition-colors duration-300">Terms of Service</a></li>
+                        <li><a href="https://test-acc-12349.github.io/ascot-vale-accounting-services-2025-04-23-1745391767367/privacy.html" class="hover:text-white transition-colors duration-300">Privacy Policy</a></li>
+                        <li><a href="https://test-acc-12349.github.io/ascot-vale-accounting-services-2025-04-23-1745391767367/terms.html" class="hover:text-white transition-colors duration-300">Terms of Service</a></li>
                         <li><a href="#" class="hover:text-white transition-colors duration-300">Cookie Policy</a></li>
                     </ul>
                 </div>
@@ -162,5 +265,36 @@
             </div>
         </div>
     </footer>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            const mobileMenuButton = document.querySelector('header nav .mobile-menu-button');
+            const mobileMenu = document.querySelector('header nav .mobile-menu');
+            
+            if (mobileMenuButton && mobileMenu) {
+                mobileMenuButton.addEventListener('click', () => {
+                    mobileMenu.classList.toggle('hidden');
+                    const icon = mobileMenuButton.querySelector('i');
+                    if (icon) {
+                        icon.classList.toggle('fa-bars');
+                        icon.classList.toggle('fa-times');
+                    }
+                });
+
+                const mobileMenuLinks = mobileMenu.querySelectorAll('a');
+                mobileMenuLinks.forEach(link => {
+                    link.addEventListener('click', () => {
+                        mobileMenu.classList.add('hidden');
+                        const icon = mobileMenuButton.querySelector('i');
+                        if (icon) {
+                            icon.classList.remove('fa-times');
+                            icon.classList.add('fa-bars');
+                        }
+                    });
+                });
+            }
+        });
+    </script>
+</body>
 </body>
 </html>
